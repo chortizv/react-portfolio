@@ -1,6 +1,6 @@
 {
     "title": "Welcome to my portfolio",
-    "description": "I am a web developer",
+    "description": "Information Engineer with 2 years of experience, focused on solving problems and creating efficient solutions. I work with multiple programming languages and technologies, including Docker, to develop and deploy applications in an agile and scalable way.",
     "404": "Page not found",
     "inicio": "Home",
     "lenguajes": "Lenguages",
@@ -8,5 +8,8 @@
     "sobre-mi": "About me",
     "contacto": "Contact",
     "titulo-inicio": "Hi, I'm Christian!",
-    "dedicacion": "Software Engineer"
+    "dedicacion": "Software Engineer",
+    "notfound": "Page not found",
+    "volver": "Back to home",
+    "notfound-descripcion": "We're sorry, the page you're looking for doesn't exist or has been moved."
 }

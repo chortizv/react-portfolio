@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import logo from "../assets/img/chrislogo.png";
 
@@ -28,10 +27,10 @@ export default function NotFound() {
 
             <h1 style={{ fontSize: "6rem", margin: 0 }}>404</h1>
             <h2 style={{ fontSize: "2rem", margin: "20px 0" }}>
-                Página no encontrada
+                {t("notfound")}
             </h2>
             <p style={{ fontSize: "1.2rem", maxWidth: "400px" }}>
-                Lo sentimos, la página que buscas no existe o ha sido movida.
+                {t("notfound-descripcion")}
             </p>
             <a
                 className="link-404"
@@ -39,7 +38,7 @@ export default function NotFound() {
             // onMouseEnter={e => (e.target.style.backgroundColor = "#e0e0e0")}
             // onMouseLeave={e => (e.target.style.backgroundColor = "#fff")}
             >
-                Volver al inicio
+                {t("volver")}
             </a>
         </div>
     );

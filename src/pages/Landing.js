@@ -1,4 +1,3 @@
-import React from "react";
 import "../assets/css/landing.css";
 import Inicio from "../components/Inicio";
 // import Lenguajes from "../components/Lenguajes";
@@ -34,7 +33,8 @@ export default function Landing() {
                             className="lang-btn"
                             onClick={() => changeLanguage(i18n.language === "es" ? "en" : "es")}
                         >
-                            {i18n.language === "es" ? t("en 🇺🇸") : t("es 🇪🇦")}
+                            {i18n.language === "es" ? t("EN") : t("ES")}
+                            <i className="bi bi-flag-fill" style={{ marginLeft: "10px" }}></i>
                         </button>
                     </div>
                 </div>

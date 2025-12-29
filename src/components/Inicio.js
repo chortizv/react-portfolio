@@ -11,7 +11,7 @@ export default function Inicio() {
                     <h3 className="tag">Christian Ortiz Vargas</h3>
                     <h1 className="titulo-inicio">{t("titulo-inicio")}</h1>
                     <h3 className="dedicacion">{t("dedicacion")}</h3>
-                    <p className="descripcion-inicio">descripcion mas menos de que hago</p>
+                    <p className="descripcion-inicio">{t("description")}</p>
                     <div className="inicio-1-botones">
                         <button>MI CV</button>
                         <a>logo1</a>

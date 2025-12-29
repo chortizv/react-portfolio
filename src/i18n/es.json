@@ -1,6 +1,6 @@
 {
     "title": "Bienvenido a mi portafolio",
-    "description": "Soy desarrollador web",
+    "description": "Ingeniero en Informática con 2 años de experiencia, enfocado en resolver problemas y crear soluciones eficientes. Trabajo con múltiples lenguajes y tecnologías, incluyendo Docker, para desarrollar y desplegar aplicaciones de forma ágil y escalable.",
     "404": "Página no encontrada",
     "inicio": "Inicio",
     "lenguajes": "Lenguajes",
@@ -8,5 +8,8 @@
     "sobre-mi": "Sobre mí",
     "contacto": "Contacto",
     "titulo-inicio": "Hola, soy Christian!",
-    "dedicacion": "Ingeniero en Informática"
+    "dedicacion": "Ingeniero en Informática",
+    "notfound": "Página no encontrada",
+    "volver": "Volver al inicio",
+    "notfound-descripcion": "Lo sentimos, la página que buscas no existe o ha sido movida."
 }
